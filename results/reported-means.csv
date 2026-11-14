@@ -1,0 +1,17 @@
+variant,threads,runs,mean_seconds
+Sequential,1,5,8.658372
+Race,2,5,8.462958
+Race,4,5,3.664258
+Race,8,5,2.836166
+Critical,2,5,4.953272
+Critical,4,5,3.049968
+Critical,8,5,3.255454
+Atomic,2,5,5.109332
+Atomic,4,5,3.775982
+Atomic,8,5,3.480356
+Reduction,2,5,5.676960
+Reduction,4,5,3.093058
+Reduction,8,5,3.260820
+Lock,2,5,5.253472
+Lock,4,5,3.005504
+Lock,8,5,2.408950
